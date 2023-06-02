@@ -1,0 +1,27 @@
+let bubbleSize = 20;
+let bubbles = [];
+
+function setup() {
+  createCanvas(500,400);
+  bubble1 = {
+    x: random(0, width),
+    y: random(0, height),
+    color: "blue"
+  };
+}
+
+function draw() {
+  background(0);
+  fill(bubble1.color);
+
+  circle(bubble1.x, bubble1.y, bubbleSize);
+
+  bubble1.x += random(-2, 2);
+  bubble1.y += random(-2, 2);
+  }
+  for (let i = 0; i < 100; i++) {
+    bubble = {
+        x: 10,
+        y: 10
+      }
+  }
